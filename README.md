@@ -18,5 +18,6 @@ Python-based maritime anomaly detection and risk-scoring dashboard built with Pa
 
 ## 🛠️ Tech Stack
 - Python, Pandas, NumPy, Matplotlib, Seaborn
+- files:
 ### 📫 Let's Connect
 - **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/aman-kumar-sinha-8131b3340/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B8TDIjpURRMaSCW1pKqBrDw%3D%3D)

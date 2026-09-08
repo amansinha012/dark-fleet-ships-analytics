@@ -8,7 +8,8 @@ Python-based maritime anomaly detection and risk-scoring dashboard built with Pa
 
 Python-based maritime anomaly detection and risk-scoring dashboard built with Pandas, NumPy, Seaborn, and Matplotlib.
 
-![Dashboard Preview](<img width="4800" height="2100" alt="dark_fleet_dashboard" src="https://github.com/user-attachments/assets/58536b89-12fc-4321-91e3-ff229fd6cc69" />
+![Dashboard Preview](<img width="4800" height="2100" alt="dark_fleet_dashboard" src="https://github.com/user-attachments/assets/414e4865-f75c-4a43-989f-aaf016554d7a" />
+
 )
 
 ## 📌 Key Features

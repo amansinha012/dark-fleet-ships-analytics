@@ -1,0 +1,24 @@
+import numpy as np
+import pandas as pd
+from datetime import datetime,timedelta
+row_number=50000
+ships_ID=np.random.randint(100001,123456,size=row_number)
+latitudes=np.random.uniform(-60.0,60.0,size=row_number)
+longitudes=np.random.uniform(-180,180,size=row_number)
+speed=np.random.uniform(15.0,25.0,size=row_number)
+base_time=datetime.now()
+random_minutes=np.random.randint(0,43250,size=row_number)
+timestamp=[base_time-timedelta(minutes=int(m)) for m in random_minutes]
+iregular_indices=np.random.choice(row_number,size=5000,replace=False)
+speed[iregular_indices]=np.random.uniform(80,150,size=len(iregular_indices))
+data={
+    'timestamps':timestamp,
+    'Ships_IDs':ships_ID,
+    'latitudes':latitudes,
+    'longitudes':longitudes,
+    'Speed':speed
+}
+df=pd.DataFrame(data)
+df=df.sort_values(by=['Ships_IDs','timestamps']).reset_index(drop=True)
+df.to_csv("Shipping_raw_data.csv",index=False)
+print("Successfully Saved !----")
